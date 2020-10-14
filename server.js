@@ -1,7 +1,11 @@
 var express = require ('express');
 var fs = require ('fs');
 var path = require("path");
+var compression = require('compression')
+var express = require('express')
+
 // - needs for path.join 
+var app = compression();
 var app = express();
 const PORT = process.env.PORT || 8080;
 
